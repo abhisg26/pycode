@@ -29,5 +29,15 @@ x[0]=100 # this operation is allowed since lists are mutables
 
 print(x,y)
 
+def get_largest_numbers(numbers,n):
+    numbers.sort()  # sorts the list in place because list is mutable object
 
+    return numbers[-n:]
+
+nums = [2,3,4,1,34,123,321,1]
+
+print(nums)
+largest = get_largest_numbers(nums,2)
+print(largest)
+print(nums)
 
