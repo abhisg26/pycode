@@ -1,6 +1,6 @@
 ## Using Ollama to run LLMs on local machine
 
-Step 1: Create python venv using command <python -m venv <env_name>>
+Step 1: Create python venv using command `python -m venv <env_name>`
 
 Step 2: Download Ollama software from given website -https://ollama.com/download. Run Setup and install
 
@@ -28,6 +28,6 @@ Flags:
 
 Use "ollama [command] --help" for more information about a command.
 
-Step 4: Use <ollama pull model_name> command to use model locally
+Step 4: Use `ollama pull model_name` command to use model locally
 
-Step 5: Install langchain to the python environment using environment <pip install -U langchain-ollama>
+Step 5: Install langchain to the python environment using environment `pip install -U langchain-ollama`
