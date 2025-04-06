@@ -1,3 +1,5 @@
 /dotenv/.env
 /__pycache__
 /__pycache__/my_module.cpython-312.pyc
+./LocalAIAgent/LocalAIAgentWithRAG/__pycache__\vector.cpython-311.pyc
+./LocalAIAgent/agent
